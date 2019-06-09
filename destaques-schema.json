@@ -1,0 +1,65 @@
+{
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties" : {
+        "Atleta": {
+          "type": "object",
+          "properties": {
+            "atleta_id": {
+              "type": "number"
+            },
+            "nome": {
+              "type": "string"
+            },
+            "apelido": {
+              "type": "string"
+            },
+            "foto": {
+              "type": "string"
+            },
+            "preco_editorial": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "atleta_id",
+            "nome",
+            "apelido",
+            "foto",
+            "preco_editorial"
+          ]
+        },
+        "escalacoes": {
+          "type": "number"
+        },
+        "clube": {
+          "type": "string"
+        },
+        "clube_id": {
+          "type": "number"
+        },
+        "escudo_clube": {
+          "type": "string"
+        },
+        "posicao": {
+          "type": "string"
+        },
+        "posicao_abreviacao": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "Atleta",
+        "escalacoes",
+        "clube",
+        "clube_id",
+        "escudo_clube",
+        "posicao",
+        "posicao_abreviacao"
+      ]
+    }
+  ]
+}
+

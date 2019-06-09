@@ -1,0 +1,12 @@
+{
+    "name": "marcus-sales-jr/validate-json-schema",
+    "authors": [
+        {
+            "name": "Marcus Sales Jr",
+            "email": "marcus.sales.jr@gmail.com"
+        }
+    ],
+    "require": {
+        "justinrainbow/json-schema": "^5.2"
+    }
+}
