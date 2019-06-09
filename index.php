@@ -1,4 +1,4 @@
-gi<?php
+<?php
 require("./vendor/autoload.php");
 
 use JsonSchema\Validator;
